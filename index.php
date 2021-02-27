@@ -26,7 +26,7 @@ require_once('functions.php');
   $auto[4]['ENGINE'] = 20500;
 
   for($i=0; $i < count($auto); $i++) { ?>
-   SPZ: <?= $auto[$i]['SPZ'] ?> <br>:
+   SPZ: <?= $auto[$i]['SPZ'] ?> <br>
    <?php getCarDescription($auto[$i]['YEAR']) ?> <br>
    <?php enginetax($auto[$i]['ENGINE']) ?> <br> <br>
   <?php } 
