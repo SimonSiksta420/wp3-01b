@@ -19,6 +19,30 @@ switch ($year) {
     default:
         echo "Auto je způsobilé";  
 
-} 
-
 }
+
+ }
+
+ function enginetax(int $ENGINE):void {
+
+    switch ($ENGINE) {
+      case $ENGINE < 800;
+        echo "1200 Kč";
+        break;
+        case $ENGINE <= 1250;
+        echo "1800 Kč";
+        break;
+        case $ENGINE <= 1500;
+        echo "2400 Kč";
+        break;
+        case $ENGINE <= 2000;
+        echo "3000 Kč";
+        break;
+        case $ENGINE <= 3000;
+        echo "3600 Kč";
+        break;
+        case $ENGINE > 3000;
+        echo "4200 Kč";
+        break;
+    }
+  }
